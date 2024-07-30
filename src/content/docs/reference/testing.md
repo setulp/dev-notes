@@ -6,16 +6,31 @@ title: Software Testing
 
 Simple test creation process:
 - Test after
-- 
+- Test during
 - Test Driven Development
 
+---
 
-For test driven development
-...
+For test driven development, this is a good paradigm to follow:
+
+- Create a testing outline
+- Write most basic code to pass test
+- Refactor
+- Commit
+
+Repeat until satified or code exceeds expectations.
+
  
  
-# API Testing with Alba
+## API Testing with Alba
  
+Alba is a library that you can use to help with unit testing.
+It can work with things like xUnit.Net to test APIs on .NET Core (using HTTP).
+The following piece of code is doing three main things:
+- Looks for the "host", aka the project where we defined `Program` and setup the API.
+- Runs a scenario to get the API URL (which was configured in the `Program` project to return a value).
+- Checks that API return code was 200 OK.
+
 ```csharp
  
 using Alba;
@@ -40,5 +55,3 @@ public class GettingSoftware
     }
 }
 ```
- 
-Write what you understand about this code. What is Alba? Where did that come from? What is `Program`?
