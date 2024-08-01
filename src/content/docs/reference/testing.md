@@ -13,9 +13,9 @@ Simple test creation process:
 
 For test driven development, this is a good paradigm to follow:
 
-- Create a testing outline
+- Create a meaningful failing test
 - Write most basic code to pass test
-- Refactor
+- Refactor, start making code good
 - Commit
 
 Repeat until satified or code exceeds expectations.
@@ -55,3 +55,5 @@ public class GettingSoftware
     }
 }
 ```
+
+
