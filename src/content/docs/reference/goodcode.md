@@ -3,7 +3,7 @@ title: Good Code and More TDD
 ---
 
 
-## Test Driven Development (TDD)
+## Good Code
 
 Good code can be a multitude of things.
 In general, good code is testable, easy to understand, easy to maintain/edit which means it is easy to understand. It should also work well and is efficient.
